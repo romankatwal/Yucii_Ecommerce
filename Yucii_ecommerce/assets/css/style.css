@@ -290,7 +290,9 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   text-align: center;
 }
 
-.newsletter-header { margin-bottom: 20px; }
+.newsletter-header {
+  margin-bottom: 20px;
+}
 
 .newsletter-title {
   color: var(--onyx);
@@ -325,11 +327,9 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   transition: var(--transition-timing);
 }
 
-.btn-newsletter:hover { background: var(--salmon-pink); }
-
-
-
-
+.btn-newsletter:hover {
+  background: var(--salmon-pink);
+}
 
 /**
  * NOTIFICATION TOAST 
