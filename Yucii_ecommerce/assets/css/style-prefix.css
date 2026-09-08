@@ -842,19 +842,18 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 .banner-content {
   background: hsla(0, 0%, 100%, 0.8);
   position: absolute;
-  bottom: 25px;
+  bottom: 60px;
   left: 25px;
   right: 25px;
-  padding: 20px 25px;
-  -webkit-border-radius: var(--border-radius-md);
-          border-radius: var(--border-radius-md);
+  padding: 8px 25px 20px;
+  border-radius: var(--border-radius-md);
 }
 
 .banner-subtitle {
   color: var(--salmon-pink);
   font-size: var(--fs-7);
   font-weight: var(--weight-500);
-  text-transform: capitalize;
+  text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 10px;
 }
