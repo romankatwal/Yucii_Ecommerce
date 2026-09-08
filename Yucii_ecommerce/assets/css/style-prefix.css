@@ -333,7 +333,8 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 .modal-close-btn ion-icon { --ionicon-stroke-width: 70px; }
 
 .newsletter {
-  padding: 50px 30px;
+   background-color: #9A9A7B;
+  padding: 70px 40px;
   text-align: center;
 }
 
@@ -353,16 +354,17 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 }
 
 .email-field {
+  border: 1px solid #000;
+  outline: none;
   font-size: var(--fs-7);
   padding: 8px 16px;
   -webkit-border-radius: var(--border-radius-sm);
-          border-radius: var(--border-radius-sm);
-  border: 1px solid var(--cultured);
+  border-radius: var(--border-radius-sm);
   margin-bottom: 16px;
 }
 
 .btn-newsletter {
-  background: var(--eerie-black);
+  background: #0f5c4d;
   color: var(--white);
   font-size: var(--fs-7);
   font-weight: var(--weight-600);
@@ -489,6 +491,7 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
 }
 
 .toast-detail {
+  background 
   width: -webkit-calc(100% - 85px);
   width: calc(100% - 85px);
   padding-right: 10px;
@@ -2212,7 +2215,15 @@ footer {
   font-weight: var(--weight-500);
 }
 
-.header-main { padding: 25px 0; }
+.header-main { 
+   padding: 25px 0;
+  background: transparent;
+  position: absolute;
+  top: 15;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
 
 .mobile-bottom-navigation {
 
@@ -2662,7 +2673,13 @@ footer {
    * #NOTIFICATION TOAST 
    */
 
-  .notification-toast { bottom: 30px; }
+  .notification-toast {
+    background-color: #9A9A7B;
+      bottom: 30px; 
+
+  }
+
+  
 
 
 
