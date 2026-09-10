@@ -895,7 +895,10 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   #CATEGORY
 \*-----------------------------------*/
 
-.category { margin-bottom: 30px; }
+.category { 
+  margin-bottom: 30px;
+ 
+ }
 
 .category-item-container {
   display: -webkit-box;
